@@ -4,14 +4,14 @@
 
 {% block content %}
 <ul>
-    {% for task in tasks %}
-    <li>
-    {{ task.name }}:
-    <form method="POST">
-        <input type="hidden" name="task_id" value="{{ task.id }}">
-        <input type="submit" value="Mark done">
-    </form>
-    </li>
-    {% endfor %}
+  {% for task in tasks %}
+  <li>
+  {{ task.name }}:
+  <form method="POST">
+    <input type="hidden" name="task_id" value="{{ task.id }}">
+    <input type="submit" value="Mark done">
+  </form>
+  </li>
+  {% endfor %}
 </ul>
 {% endblock content %}

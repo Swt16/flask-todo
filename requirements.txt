@@ -15,7 +15,6 @@ decorators==0.1.1
 flake8==3.6.0
 Flask==0.12.2
 gunicorn==19.9.0
-heroku==0.1.4
 idna==2.7
 ipykernel==4.9.0
 ipyparallel==6.2.2
