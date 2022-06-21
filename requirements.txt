@@ -37,7 +37,7 @@ multidict==4.5.2
 neo4j-driver==1.7.1
 neobolt==1.7.3
 neotime==1.7.1
-numpy==1.15.2
+numpy==1.22.0
 pandas==0.23.4
 parso==0.3.0
 passlib==1.7.1
